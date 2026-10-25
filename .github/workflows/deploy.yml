@@ -32,8 +32,8 @@ jobs:
           node-version: "22"
           cache: npm
 
-      - name: Instalar dependencias
-        run: npm ci
+       - name: Instalar dependencias
+     run: npm install
 
       - name: Compilar simulador
         run: npm run build
