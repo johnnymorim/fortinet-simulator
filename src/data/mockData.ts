@@ -100,7 +100,8 @@ export const interfaces = [
   { name: "port2", alias: "WAN2", ip: "198.51.100.1/24", status: "up", speed: "10Gbps", rxRate: "1.1 Gbps", txRate: "890 Mbps", rxBytes: "6.7 TB", txBytes: "4.2 TB" },
   { name: "port3", alias: "LAN", ip: "10.0.1.1/24", status: "up", speed: "10Gbps", rxRate: "3.2 Gbps", txRate: "2.9 Gbps", rxBytes: "22.1 TB", txBytes: "18.5 TB" },
   { name: "port4", alias: "DMZ", ip: "172.16.0.1/24", status: "up", speed: "1Gbps", rxRate: "245 Mbps", txRate: "312 Mbps", rxBytes: "1.2 TB", txBytes: "1.8 TB" },
-  { name: "port5", alias: "MGMT", ip: "10.0.99.1/24", status: "up", speed: "1Gbps", rxRate: "12 Mbps", txRate: "8 Mbps", rxBytes: "45 GB", txBytes: "22 GB" },
+  { name: "port5", alias: "MGMT", ip: "10.0.99.1/24", status: "up", speed: "1Gbps", rxRate: "12 Mbps", txRate: "8 Mbps", rxBytes: "45 GB", txBytes: "22 GB" },  
+  { name: "port6", alias: "LAB", ip: "0.0.0.0/0", status: "up", speed: "1Gbps", rxRate: "0 Mbps", txRate: "0 Mbps", rxBytes: "0 B", txBytes: "0 B" },
   { name: "ssl.root", alias: "SSL-VPN", ip: "10.212.134.1/24", status: "up", speed: "N/A", rxRate: "89 Mbps", txRate: "124 Mbps", rxBytes: "320 GB", txBytes: "580 GB" },
 ];
 
